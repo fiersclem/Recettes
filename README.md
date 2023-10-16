@@ -14,3 +14,4 @@ Formulaire.js : Permet d'ajouter une nouvelle recette à la liste, laquelle sera
 
 Lorsque l'utilisateur est connecté, le site propose également la possibilité de mettre une recette en favoris en cliquant sur l'étoile située en dessous du bouton "Voir plus...". Ces favoris sont également stockés dans le localStorage.
 
+(Pour l'authentification le mot de passe est "password" et le nom d'utilisateur est "admin")
