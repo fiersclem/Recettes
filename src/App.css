@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  }
+
+  .card{
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  img{
+    margin: auto;
+    display: flex;
+  }
+
+  .btn-primary{
+    margin: auto;
+  }
+
+  .details{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(149, 142, 142);
+    color: white;
+    align-items: center;
+  }
+
+  details h2{
+    flex-direction: column;
+  }
+
+  .details img{
+    flex-direction: column;
+  }
+
+  .details p{
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .star-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary{
+    display: flex;
+    justify-content: center;
+  }
+
+  .authentification{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .authentification form{
+    flex-direction: row;
+  }
